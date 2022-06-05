@@ -45,7 +45,6 @@ let name = "";
 for (let k = 0; k < extns.length; k++) {
   for (let i = 0; i < adj.length; i++) {
     for (let j = 0; j < noun.length; j++) {
-      console.log(adj[i] + noun[j] + extns[k]);
       name += adj[i] + noun[j] + extns[k] + "<br>";
     }
   }
